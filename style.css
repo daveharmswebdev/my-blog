@@ -1,0 +1,19 @@
+body {
+	width: 50%;
+	margin: 0 auto;
+}
+
+header, article, footer {
+	font-family: sans-serif;
+	border: 1px dotted;
+	padding: 0.5rem;
+}
+
+.article--footer {
+	background-color: blue;
+}
+
+.article--footer p,
+.article--footer time {
+	display: inline-block;
+}
